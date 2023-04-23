@@ -39,6 +39,7 @@
   width: 56%;
   display: inline-block;
   flex-grow: 1;
+  margin: 0;
 }
 
 .add-task .content {

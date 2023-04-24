@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Todo App</title>
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" media="screen" charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="body">
@@ -18,7 +21,7 @@
     <section class="add-task">
       <h3 class="add-task title">Add Item</h3>
       <div class="add-task content">
-        <input id="new-task" class="content task-input" type="text">
+        <input id="new-task" class="content item__text" type="text">
         <button class="button content__button-add-task">Add</button>
       </div>
     </section>
@@ -30,7 +33,7 @@
           <input class="item__check" type="checkbox">
   
           <p class="item__task">Pay Bills</p>
-          <input type="item__text" class="task-input">
+          <input type="text" class="item__text">
   
           <button class="button item__button-edit-task">Edit</button>
   
@@ -43,7 +46,7 @@
           <input class="item__check" type="checkbox">
   
           <p class="item__task">Go Shopping</p>
-          <input type="item__text" value="Go Shopping" class="task-input">
+          <input type="text" value="Go Shopping" class="item__text">
   
           <button class="button item__button-edit-task">Save</button>
   
@@ -61,7 +64,7 @@
           <input class="item__check" type="checkbox" checked>
   
           <p class="item__task">See the Doctor</p>
-          <input type="item__text" class="task-input">
+          <input type="text" class="item__text">
   
           <button class="button item__button-edit-task">Edit</button>
   

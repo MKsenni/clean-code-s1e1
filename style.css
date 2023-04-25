@@ -1,7 +1,7 @@
 /* Basic Style */
 @font-face {
   font-family: "OPTIPaulDavid";
-  src:url("./webfonts_OPTIPaulDavid/OPTIPaulDavid.ttf.woff") format("woff"),
+  src: url("./webfonts_OPTIPaulDavid/OPTIPaulDavid.ttf.woff") format("woff"),
       url("./webfonts_OPTIPaulDavid/OPTIPaulDavid.ttf.svg#OPTIPaulDavid") format("svg"),
       url("./webfonts_OPTIPaulDavid/OPTIPaulDavid.ttf.eot"),
       url("./webfonts_OPTIPaulDavid/OPTIPaulDavid.ttf.eot?#iefix") format("embedded-opentype"); 
